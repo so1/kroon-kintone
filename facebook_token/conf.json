@@ -1,0 +1,10 @@
+{
+  "app": {
+    "app_id": "1820767734836811",
+    "app_secret": "f9e0563b422c20d5d9c706e727e1818c",
+    "redirect_uri": "http://localhost:8000/cgi-bin/get_token"
+  },
+  "page": {
+    "name": "西荻窪クラフトビール屋 Project"
+  }
+}
