@@ -12,9 +12,7 @@ FACEBOOK_PAGE_TOKEN = os.environ.get('FACEBOOK_PAGE_TOKEN')
 API_TOKEN = os.environ.get('API_TOKEN')
 KINTONE_ENDPOINT = os.environ.get('KINTONE_ENDPOINT')
 
-LINE = u'''
-{名前}({ニックネーム})
-{説明}
+LINE = u'''{やりたいこと}  [{ポイント}ポイント]
 '''
 
 class Timeline:
@@ -27,8 +25,6 @@ class Timeline:
 def lambda_handler(event, context):
     resp = requests.get(KINTONE_ENDPOINT, headers={'X-Cybozu-API-Token': API_TOKEN});
     records = json.loads(resp.text)['records']
-
-    message = '{}\n\n'.format(datetime.now())
 
     lines = []
     for record in records:
