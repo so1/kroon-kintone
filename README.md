@@ -21,3 +21,10 @@ https://slack-files.com/T3D8575L6-F3QJEUZ55-37177da051
 # Get page token to post facebook page
 see facebook_token/README.md
 
+# github usage for me
+kroon-kintone のdirで
+```
+$git pull #最新をとってくる
+$git commit -am "write my commit message" filename #addしつつコミットする。 filenameを.にすると、そのdir全部
+$git push #レポジトリに送る
+$git add filename #
