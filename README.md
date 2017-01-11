@@ -28,3 +28,8 @@ $git pull #最新をとってくる
 $git commit -am "write my commit message" filename #addしつつコミットする。 filenameを.にすると、そのdir全部
 $git push #レポジトリに送る
 $git add filename #
+
+# テスト投稿用Facebookページ
+
+トークン：EAAZA3ZBoYNrksBAOopS7WeZBPfZCYtcFlWqMDMZCGcpGfI8l1Q6YB1qaH0xaN1IqRoWSUKismEI8EZA0FK7dC66fZCQ6LFj5ECS7alVc3KuB0EARZAsBFifef59imU1KuRXsjTsSbPwrJFPBC5GWwZBZCb2Mfut3LR6M7SWahBe79ZBw2ngjqc02RyA
+URL：https://www.facebook.com/hogehogetest2/
