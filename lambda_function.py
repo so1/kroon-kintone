@@ -9,9 +9,8 @@ import facebook
 import requests
 
 FACEBOOK_PAGE_TOKEN = os.environ.get('FACEBOOK_PAGE_TOKEN')
-API_TOKEN = os.environ.get('API_TOKEN')
-KINTONE_ENDPOINT = os.environ.get('KINTONE_ENDPOINT')
-
+API_TOKEN = os.environ.get('API_TOKEN')               #lambdaの環境変数からkintoneアプリのAPIトークンをとってくる（
+KINTONE_ENDPOINT = os.environ.get('KINTONE_ENDPOINT') #lambdaの環境変数からkintoneのエンドポイントをとってくる
 LINE = u'''{やりたいこと}  [{ポイント}ポイント]
 '''
 
